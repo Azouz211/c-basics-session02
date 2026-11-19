@@ -100,11 +100,24 @@ namespace Assignment02
 
             #region Question 9 
 
-            int Pages = 464; 
+            //int Pages = 464; 
 
-            string StringPages = Pages.ToString();
+            //string StringPages = Pages.ToString();
 
-            Console.WriteLine(StringPages.GetType());
+            //Console.WriteLine(StringPages.GetType());
+
+            #endregion
+
+            #region Question 10 
+
+            int Copies = 100;
+
+            object objCopies = Copies;
+
+            int UnboxCopies = (int)objCopies;
+
+            Console.WriteLine(UnboxCopies);
+            Console.WriteLine(objCopies);
 
             #endregion
         }
