@@ -30,8 +30,27 @@
 
             #region Question 3
 
-            //int pages = "464"; // Copile time error
-            int Pages = 464; // Fixed
+            ////int pages = "464"; // Copile time error
+            //int Pages = 464; // Fixed
+
+            #endregion
+
+            #region Question 4
+
+                int Number1 = 10;
+                int Number2 = 0;
+            try
+            {
+                Console.WriteLine(Number1 / Number2);
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
 
             #endregion
         }
