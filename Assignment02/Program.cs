@@ -56,9 +56,18 @@
 
             #region Question 5
 
-            int Pages = 300;
-            Double DoublePages = Pages;
-            Console.WriteLine(DoublePages);
+            //int Pages = 300;
+            //Double DoublePages = Pages;
+            //Console.WriteLine(DoublePages);
+            #endregion
+
+            #region Question 6
+
+            double Price = 49.99;
+            int intPrice = (int)Price;
+
+            Console.WriteLine(intPrice);
+
             #endregion
         }
     }
