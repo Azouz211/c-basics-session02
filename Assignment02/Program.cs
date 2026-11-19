@@ -1,4 +1,6 @@
-﻿namespace Assignment02
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Assignment02
 {
     internal class Program
     {
@@ -72,10 +74,27 @@
 
             #region Question 7
 
-            string pagesText = "464";
+            //string pagesText = "464";
 
-            int Pages = Convert.ToInt32(pagesText);
-            Console.WriteLine(Pages);
+            //int Pages = Convert.ToInt32(pagesText);
+            //Console.WriteLine(Pages);
+
+            #endregion
+
+            #region Question 8 
+
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+
+            string badText = "abc";
+            if (int.TryParse(badText, out int Number))
+            {
+                Console.WriteLine(Number);
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
 
             #endregion
         }
