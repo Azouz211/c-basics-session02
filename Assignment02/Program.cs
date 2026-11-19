@@ -14,19 +14,27 @@
 
             #region Question 2 
 
-            Book book = new Book
-            {
-                Title = "My Book",
-                Pages = 400
-            };
+            //    Book book = new Book
+            //    {
+            //        Title = "My Book",
+            //        Pages = 400
+            //    };
 
-            Console.WriteLine(book.ToString());
-            Console.WriteLine(book.Equals(book));
-            Console.WriteLine(book.GetHashCode());
-            Console.WriteLine(book.GetType());
-        }
+            //    Console.WriteLine(book.ToString());
+            //    Console.WriteLine(book.Equals(book));
+            //    Console.WriteLine(book.GetHashCode());
+            //    Console.WriteLine(book.GetType());
+            //}
 
             #endregion
+
+            #region Question 3
+
+            //int pages = "464"; // Copile time error
+            int Pages = 464; // Fixed
+
+            #endregion
+        }
     }
     
 }
