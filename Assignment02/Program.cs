@@ -37,21 +37,28 @@
 
             #region Question 4
 
-                int Number1 = 10;
-                int Number2 = 0;
-            try
-            {
-                Console.WriteLine(Number1 / Number2);
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("Cannot divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //    int Number1 = 10;
+            //    int Number2 = 0;
+            //try
+            //{
+            //    Console.WriteLine(Number1 / Number2);
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
 
+            #endregion
+
+            #region Question 5
+
+            int Pages = 300;
+            Double DoublePages = Pages;
+            Console.WriteLine(DoublePages);
             #endregion
         }
     }
