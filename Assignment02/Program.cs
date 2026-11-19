@@ -83,18 +83,28 @@ namespace Assignment02
 
             #region Question 8 
 
-            string yearText = "2023";
-            int year = int.Parse(yearText);
+            //string yearText = "2023";
+            //int year = int.Parse(yearText);
 
-            string badText = "abc";
-            if (int.TryParse(badText, out int Number))
-            {
-                Console.WriteLine(Number);
-            }
-            else
-            {
-                Console.WriteLine("Invalid number");
-            }
+            //string badText = "abc";
+            //if (int.TryParse(badText, out int Number))
+            //{
+            //    Console.WriteLine(Number);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid number");
+            //}
+
+            #endregion
+
+            #region Question 9 
+
+            int Pages = 464; 
+
+            string StringPages = Pages.ToString();
+
+            Console.WriteLine(StringPages.GetType());
 
             #endregion
         }
